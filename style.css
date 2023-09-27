@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     font-family: 'Roboto Mono', monospace;
     gap: 3em;
 }
@@ -32,13 +33,26 @@ div span {
 }
 
 button {
+    background: none;
+    border-radius: 1.2rem;
     font-size: 3em;
     border: none;
     width: 4rem;
     height: 5rem;
-    border-radius: 1.2rem;
-    background: none;
     transition: 0.1s ease-in-out;
+}
+
+body > button {
+    background: #999999;
+    font-size: 1.5rem;
+    height: auto;
+    width: auto;
+    padding: .5em;
+    color: #fff;
+}
+
+body > button:hover {
+    background: #808080;
 }
 
 button:hover {
@@ -48,4 +62,23 @@ button:hover {
 
 button:active {
     transform: scale(.95);
+    background: none;
 } 
+
+footer {
+    display: flex;
+    gap: 30px;
+}
+
+footer a img {
+    width: 3.5em;
+    padding: 12px;
+    border-radius: 16px;
+    filter: grayscale(1);
+    transition: 0.3s ease;
+}
+
+footer a img:hover {
+    transform: scale(1.05);
+    background: #38386373;
+}
