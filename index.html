@@ -14,34 +14,43 @@
     <title>Counter</title>
 </head>
 <body>
-    <div class="counter">
-        <h2>Counter</h2>
-
-        <div class="counter-plusAndminus">
-            <button>&#8722;</button>
-            <span>0</span>
-            <button>&#43;</button>
-        </div>
+    <main>
+        <div class="counter">
+            <h2>Counter</h2>
         
-        <button>Reset</button>
-    </div>
-
-    <div class="letter-counter">
-        <h2>Letter Counter</h2>
-
-        <input type="text" placeholder="Write something" oninput="counter()">
-        <label for="result">
-            Letter Count: <span id="result">0</span>
-        </label>
-    </div>
+            <div class="counter-plusAndminus">
+                <span>0</span>
+                <div class="counter-buttons">
+                    <button>&#8722;</button>
+                    <button>&#43;</button>
+                </div>
+            </div>
+        
+            <button>Reset</button>
+        </div>
+        <div class="letter-counter">
+            <h2>Letter Counter</h2>
+            <input type="text" placeholder="Write something">
+            <div>
+                Letter Count: <span>0</span>
+            </div>
+        </div>
+    </main>
 
     <footer>
-        <a href="https://github.com/Talyslan" target="_blank">
-            <img src="images/github.png" alt="Icon do GitHub">
-        </a>
-        <a href="mailto:talyslancpc@gmail.com" target="_blank">
-            <img src="images/gmail.png" alt="Icon Gmail">
-        </a>
+        <div class="social-midias">
+            <a href="https://github.com/Talyslan" target="_blank">
+                <img src="images/github.png" alt="Icon do GitHub">
+            </a>
+            <a href="mailto:talyslancpc@gmail.com" target="_blank">
+                <img src="images/gmail.png" alt="Icon Gmail">
+            </a>
+        </div>
+
+        <span>
+            Created by 
+            <a href="https://github.com/Talyslan" target="_blank">Talyslan C. P. Canabarro</a>
+        </span>
     </footer>
 
     <script src="./letter-counter/lcscript.js"></script>

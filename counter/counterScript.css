@@ -19,30 +19,38 @@ div.counter > button {
 div.counter button:hover {
     color: #202022;
     cursor: pointer;
-    background: #c5c5c5;
+    background: var(--bordas);
 }
 
 div.counter-plusAndminus {
-    background: #808080;
-    border-radius: 1.2em;
+    border: 6px solid var(--bordas);
+    border-radius: 12px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 2em;
+    justify-content: space-around;
+    width: 12em;
+    height: 10em;
 }
 
 div.counter-plusAndminus span {
     font-size: 2rem;
 } 
 
-div.counter-plusAndminus > button {
-    font-size: 1.1rem;
-    padding: .5em;
-    color: #fff;
-    height: 5rem;
-    width: 4rem;
+div.counter-plusAndminus .counter-buttons > button {
+    border: 3px solid var(--bordas);
+    font-size: 1rem;
+    height: 3em;
+    width: 3em;
     transition: 0.3s ease-in-out;
 }
 
 div.counter-plusAndminus > button:hover {
-    background: #afafaf;
+    background: var(--bordas);
+}
+
+div.counter-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }

@@ -1,0 +1,25 @@
+.letter-counter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em
+}
+
+input[type="text"] {
+    padding: 0 14px;
+    height: 2em;
+    width: 70%;
+    border: none;
+    border-radius: 12px;
+    color: var(--back);
+    background: var(--bordas);
+}
+
+input[type="text"]::placeholder {
+    color: var(--back);
+}
+
+input[type="text"]:focus {
+    border: none;
+    outline: 0;
+}
