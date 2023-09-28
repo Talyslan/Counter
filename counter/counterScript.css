@@ -1,0 +1,48 @@
+div.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+div.counter button {
+    border-radius: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+
+div.counter > button {
+    padding: .4em;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+div.counter button:hover {
+    color: #202022;
+    cursor: pointer;
+    background: #c5c5c5;
+}
+
+div.counter-plusAndminus {
+    background: #808080;
+    border-radius: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+div.counter-plusAndminus span {
+    font-size: 2rem;
+} 
+
+div.counter-plusAndminus > button {
+    font-size: 1.1rem;
+    padding: .5em;
+    color: #fff;
+    height: 5rem;
+    width: 4rem;
+    transition: 0.3s ease-in-out;
+}
+
+div.counter-plusAndminus > button:hover {
+    background: #afafaf;
+}

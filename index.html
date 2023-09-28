@@ -7,19 +7,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./letter-counter/lcsstyle.css">
+    <link rel="stylesheet" href="./counter/counterScript.css">
     <title>Counter</title>
 </head>
 <body>
-    <h1>Counter</h1>
-    <div>
-        <button>-</button>
-        <span>0</span>
-        <button>+</button>
+    <div class="counter">
+        <h2>Counter</h2>
 
+        <div class="counter-plusAndminus">
+            <button>&#8722;</button>
+            <span>0</span>
+            <button>&#43;</button>
+        </div>
+        
+        <button>Reset</button>
     </div>
-    
-    <button>Reset</button>
+
+    <div class="letter-counter">
+        <h2>Letter Counter</h2>
+
+        <input type="text" placeholder="Write something" oninput="counter()">
+        <label for="result">
+            Letter Count: <span id="result">0</span>
+        </label>
+    </div>
 
     <footer>
         <a href="https://github.com/Talyslan" target="_blank">
@@ -30,6 +44,7 @@
         </a>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./letter-counter/lcscript.js"></script>
+    <script src="./counter/counterScript.js"></script>
 </body>
 </html>
