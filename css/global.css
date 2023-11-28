@@ -1,0 +1,13 @@
+:root {
+    --bordas: #c5c5c5;
+    --letters: #fff; 
+    --back: #202022;
+    --blue: #6546b9;
+    --red: #b66262;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

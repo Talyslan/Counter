@@ -1,0 +1,40 @@
+body {
+    background: var(--back);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 3em;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+
+body, button, input {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--letters);
+    user-select: none;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button:active {
+    transform: scale(.9);
+    background: none;
+} 
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, var(--blue), var(--red));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

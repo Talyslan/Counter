@@ -1,0 +1,10 @@
+@media (max-width: 720px) {
+    main {
+        flex-direction: column;
+        gap: 74px;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+}
