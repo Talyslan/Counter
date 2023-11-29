@@ -11,7 +11,7 @@ Ao fazer este código, testei meus conhecimentos com manipulação e lógica ao 
 ## 📌 Como ver
 
 O projeto está hospedado no próprio GithubPages:
-[Gerador de Cancelamento](https://talyslan.github.io/Counters/)
+[Counters](https://talyslan.github.io/Counters/)
 
 
 ## Technologies Used
