@@ -5,21 +5,23 @@
     gap: 2em
 }
 
-input[type="text"] {
-    padding: 0 14px;
-    height: 3em;
+textarea {
+    resize: none;
+    padding: 12px 14px;
     width: 70%;
     border: none;
     border-radius: 12px;
+    max-width: 600px;
+    max-height: 160px;
     color: var(--back);
     background: var(--bordas);
 }
 
-input[type="text"]::placeholder {
+textarea::placeholder {
     color: var(--back);
 }
 
-input[type="text"]:focus {
+textarea:focus {
     border: none;
     outline: 0;
 }

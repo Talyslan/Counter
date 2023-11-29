@@ -1,4 +1,4 @@
-const inputUser = document.querySelectorAll("input")[0];
+const inputUser = document.querySelectorAll("textarea")[0];
 
 const counter = () => {
     const valueFinal = inputUser.value.trim().split("").filter(i => i !== ' ');

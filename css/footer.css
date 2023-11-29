@@ -26,5 +26,11 @@ footer span {
 }
 
 footer span a {
+    opacity: .8;
     color: var(--letters);
+    transition: 0.3s ease;
+}
+
+footer span a:hover {
+    opacity: 1;
 }

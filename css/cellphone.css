@@ -1,7 +1,7 @@
 @media (max-width: 720px) {
     main {
         flex-direction: column;
-        gap: 74px;
+        margin-top: 64px;
     }
     
     h2 {
